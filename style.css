@@ -1,0 +1,199 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "TheBold";
+  src: url(theboldfont.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-item {
+  padding-left: 50px;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #dedede;
+}
+
+.upper {
+  background: url(Images/bg1.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.upperzoomx {
+  background: url(Images/bg2.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.upperreact {
+  background: url(Images/bg5.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.upperair {
+  background: url(Images/bg6.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.shoe {
+  transform: rotate(20deg);
+  margin-top: 250px;
+  margin-left: 200px;
+  -webkit-filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+}
+
+.zoomx {
+  margin-top: 150px;
+  margin-left: 200px;
+  -webkit-filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+}
+
+.react {
+  margin-top: 200px;
+  margin-left: 200px;
+  -webkit-filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+}
+
+.air {
+  transform: rotate(340deg);
+  margin-top: 150px;
+  margin-left: -100px;
+  -webkit-filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+}
+
+.landText {
+  color: white;
+  margin-top: 150px;
+}
+
+.landText .heading {
+  font-family: TheBold;
+  font-size: 95pt;
+}
+.landText .postHeading {
+  font-size: 16pt;
+  text-align: justify;
+}
+
+#about {
+  height: 50%;
+}
+
+.aboutHead {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18pt;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.aboutText {
+  font-family: "Roboto";
+  font-weight: 300;
+  text-align: justify;
+  font-size: 14pt;
+}
+
+#footer {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 250px;
+}
+
+#footerzoomx {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 3400px;
+}
+
+#footerreact {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 2700px;
+}
+
+#footerair {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 1900px;
+}
+
+@media only screen and (max-width: 600px) {
+  .upper {
+    display: none;
+  }
+
+  .upperzoomx {
+    display: none;
+  }
+
+  .upperreact {
+    display: none;
+  }
+
+  .upperair {
+    display: none;
+  }
+
+  #about {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #footerzoomx {
+    display: none;
+  }
+
+  #footerreact {
+    display: none;
+  }
+
+  #footerair {
+    display: none;
+  }
+
+  h1 {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  h1 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
